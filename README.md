@@ -1,4 +1,4 @@
 # game-ig
 
-## Creating a platformer caue why tf not
+## Creating a platformer cause why tf not
 yippee
