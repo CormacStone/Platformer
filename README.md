@@ -4,3 +4,6 @@
 yeah i dont have a name yet
 
 yippee
+
+but heres a class diagram
+[]()
