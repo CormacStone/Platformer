@@ -1,7 +1,9 @@
 # Platformer
 
-## Creating a platformer cause why not
+## Creating a platformer because why not
 yeah i dont have a name yet
+
+i should probably think of one
 
 yippee
 
