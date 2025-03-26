@@ -1,6 +1,8 @@
 # Platformer
 
-## Creating a platformer because why not
+### Creating a platformer because why not
+I am going to make a platformer because it sounds like fun and could be an interesting challenge.
+
 yeah i dont have a name yet
 
 i should probably think of one
