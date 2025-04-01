@@ -5,7 +5,7 @@ I am going to make a platformer because it sounds like fun and could be an inter
 
 #### Year Two Concepts
 
-+ GUI Controlls
++ GUI Controls
 + Inheritance
 + Enchanced For Loops
 + I/O Handling
