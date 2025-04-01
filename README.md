@@ -9,4 +9,4 @@ Class Diagram
 
 Mockup
 
-![Mockup]()
+![Mockup](https://github.com/CormacStone/Platformer/blob/main/images/mockup.png)
