@@ -9,7 +9,7 @@ I am going to make a platformer because it sounds like fun and could be an inter
 + GUI Controls
 + Inheritance
 + Enchanced For Loops
-+ I/O Handling
++ I/O & Exception Handling
 + Multidimentional Arrays
 + Collections
 
