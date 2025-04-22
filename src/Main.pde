@@ -1,24 +1,31 @@
 //Cormac Stone
+gun myGun;
 float xpos, ypos;
 int nfloor;
 float xmovement, ymovement;
 boolean r, l, u, d;
-
+boolean hasClicked = false;
 void setup() {
   size(600, 600);
-  fullScreen();
+  //fullScreen();
   xpos = 300;
   ypos = 300;
   nfloor = 1000;
+  myGun = new gun();
 }
 
 void draw() {
   background(150);
   physics();
+  rectMode(CENTER);
   square(xpos, ypos, 50);
-  frameRate(120);
-  //gun.display();
+  stroke(255, 0, 0);
+  line(xpos, ypos, mouseX, mouseY);
+  noStroke();
+
+  myGun.display();
 }
+
 
 void keyPressed() {
   if (keyCode == 37 || key == 'a') {
@@ -85,4 +92,14 @@ void keyReleased() {
   if (keyCode == 40 || key == 's') {
     d = false;
   }
+}
+void mousePressed() {
+  if (!hasClicked && myGun != null) {
+    myGun.mousePressed(xpos, ypos, mouseX, mouseY);
+    hasClicked = true;
+  }
+}
+
+void mouseReleased() {
+  hasClicked = false;
 }
